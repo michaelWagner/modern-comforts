@@ -1,0 +1,87 @@
+.container {
+  background-color: #333333;
+  width: 100%;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+div.navbar .container {
+  width: 100%;
+}
+
+.navbar .brand {
+  color: #FFFFFF;
+  text-shadow: none;
+  padding-left: 30px;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+div.container {
+  color: #FFFFFF;
+  text-shadow: none;
+}
+
+.navbar .nav > li > a {
+  color: #FFFFFF;
+  text-shadow: none;
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+  color: #999999;
+}
+
+.footer-separator {
+  height: 20px;
+  background-color: #FFFFFF;
+  margin-bottom: 27px;
+}
+
+.blurbs {
+  padding: 0 3em 2em 4em;
+}
+
+.footer {
+  padding-top: 10px;
+}
+
+.footer-notes {
+  list-style-type: none;
+  font-size: .75em;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 1199px) {
+  div.blurbs {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 979px) {
+  div.blurbs {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  div.blurbs {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 656px) {
+  div.blurbs {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .blurb-copy {
+    display: none;
+    padding-left: 200px;
+  }
+}
